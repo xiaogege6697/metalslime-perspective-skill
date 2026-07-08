@@ -1,12 +1,12 @@
-# 🧠 metalslime-perspective — An AI-Powered Investment Thinking OS
+# 🧠 metalslime-perspective — Investment Thinking Lens
 
-> A distilled investment mindset from **metalslime** (药神), a top Chinese investor with **230K+ followers** on Xueqiu (雪球), based on **20,787 public posts** spanning 2021–2026.
+> An educational analysis lens distilled from public metalslime (药神) posts. It helps users study cycles, valuation, IRR, supply-demand, and cross-asset comparison without impersonating the person or giving personalized financial advice.
 
 ---
 
 ## 📖 What Is This?
 
-This is an [OpenClaw](https://github.com/nicepkg/openclaw) skill that activates **metalslime's investment thinking framework** as an AI persona. Instead of generic financial advice, you get analysis through the lens of a battle-tested, cross-market investor who:
+This is an [OpenClaw](https://github.com/nicepkg/openclaw) skill that applies a **metalslime-style investment thinking framework** as an analytical perspective. Instead of generic market commentary, it helps you reason through the lens of a cross-market research style that:
 
 - 🔄 Rotates across industries at speed (baijiu → gaming → wind power → oil shipping → semiconductors)
 - 📊 Uses **IRR** as the ultimate decision yardstick
@@ -14,7 +14,9 @@ This is an [OpenClaw](https://github.com/nicepkg/openclaw) skill that activates 
 - 🧠 Learns a new industry in **1–2 weeks** and produces 10,000+ word research
 - 💬 Speaks plainly — no jargon, no false certainty
 
-**Important:** This is a *thinking framework*, not financial advice. The value is in learning *how* to think about markets, not *what* to buy.
+**Important:** This is a *thinking framework*, not financial advice and not the real metalslime account. The value is in learning *how* to think about markets, not *what* to buy.
+
+See [`docs/core-boundary.md`](docs/core-boundary.md) for the stable project boundary: perspective, not impersonation; analysis, not instruction; current-data checks for live market claims.
 
 ---
 
@@ -101,11 +103,13 @@ Discover Industry/Stock
 
 ## 🎯 Use Cases
 
-- **Investment analysis** — Get metalslime's cyclical + value compound perspective
+- **Investment analysis** — Apply a cyclical + value compound perspective
 - **Market timing** — Understand where we are in the cycle
 - **Industry research** — Learn the rapid-learning framework for new sectors
 - **Risk management** — Apply the "ruthless at bottoms" discipline
 - **Chinese market insight** — Understand A-share / HK / US dynamics through a practitioner's lens
+
+For live stocks, market prices, valuations, earnings, policy, or news-sensitive claims, verify fresh data first or mark the claim as unverified.
 
 ---
 
@@ -138,9 +142,12 @@ Once installed, activate the skill by saying things like:
 
 ```
 metalslime-perspective-skill/
-├── README.md        ← You are here
-├── SKILL.md         ← The complete skill definition
-└── LICENSE          ← MIT
+├── README.md
+├── SKILL.md
+├── docs/core-boundary.md
+├── evals/evals.json
+├── VERSION
+└── LICENSE
 ```
 
 > **Note:** The raw data (20,787 posts) is NOT included in this repo. This repo contains only the distilled thinking framework and persona definition.
@@ -149,7 +156,7 @@ metalslime-perspective-skill/
 
 ## ⚠️ Disclaimer
 
-This skill is a **thinking framework** for educational purposes. It is NOT financial advice. metalslime's views change over time — the framework teaches *how to think*, not *what to do*. Always do your own research.
+This skill is a **thinking framework** for educational purposes. It is NOT financial advice, does not represent metalslime, and should not be used as a buy/sell instruction. metalslime's views and market conditions change over time; verify current data and always do your own research.
 
 ---
 
