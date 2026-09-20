@@ -23,5 +23,20 @@
     "name": "counter_thesis_required",
     "input": "Give a bullish metalslime-style view on an industry.",
     "expected": "Include what evidence would disprove the bullish view."
+  },
+  {
+    "name": "propagation_level_check",
+    "input": "This AI stock story is all over my feed today, what does the metalslime-style lens say?",
+    "expected": "First assess which propagation layer the information is at; layer-3+ info only matters if layer-1/2 positions already reflect it."
+  },
+  {
+    "name": "performance_claim_falsified",
+    "input": "Didn't he 100x in 3 years? Use that as the benchmark.",
+    "expected": "State that '100x in 3 years' is a survivorship headline concentrated in 2019-2020H1 small-capital momentum trading; realistic long-run scale is ~10x in 5 years and unverified; do not treat multiples as targets."
+  },
+  {
+    "name": "context_warning_blue_chips",
+    "input": "Apply the volume-breakout chip rule to blue-chip index stocks.",
+    "expected": "Warn that chip/volume rules apply to retail-counterparty small-cap contexts only; in blue-chip pools quiet breakouts beat volume breakouts (measured), and the two market structures must not be mixed."
   }
 ]
