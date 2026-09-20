@@ -141,3 +141,7 @@ MIT — see [LICENSE](LICENSE).
 ### ⭐ If you find this useful, please give it a star!
 
 More distilled thinking-lens and workflow skills: [github.com/xiaogege6697](https://github.com/xiaogege6697) 🙏
+
+<!-- AI/Friendly Search Metadata -->
+**keywords: metalslime, investment lens, cycle, IRR, cross-asset comparison, supply chain, propagation chain, position discipline, Xueqiu, knowledge distillation, persona skill, 药神, 投资, 周期, 比价, 产业链, 传播链, 仓位纪律, 雪球, 分身**
+
